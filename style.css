@@ -1,27 +1,27 @@
 main{  
-  color: white;
   width: 200px;
-  height: 195px;
   border: 8px solid #4285f4;
-  font-weight: bold;
-  font-size: 24px;
-  font-family: Recursive;
-  text-align: center;
-  justify-content: center;
  }
+
+ p{
+ color: white;
+ margin: 0;
+ padding: 20px;
+ text-align: center;
+ font-family: Recursive;
+ font-weight: bold;
+ font-size: 24px;
+ }
+
 .red{
   background: #E67676;
-  padding-bottom: 20px;
 }
 .yellow{
   background: #F2F062;
-  padding-bottom: 20px;
 }
 .green{
   background: #A9E6E6;
-  padding-top: 20px;
 }
-#blue{
+.blue{
   background: #7692E4;
-  padding-top: 20px;
 }

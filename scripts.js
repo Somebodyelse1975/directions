@@ -9,13 +9,13 @@ if (color === 'purple') {
 };
 
 if (number > 100) {
-    $('.yellow').text('whoah, that is a big number.')
+    $('.yellow').text("whoah, that is a big number.")
 } else {
-    $('yellow').text('just a regular number, please.')
-};
+    $('yellow').text("just a regular number, please.");
+}
 
 if (word === 'cool') {
     $('.green').text('Power of DOM');
 } else if (word !== 'cool') {
-    $('#blue').text('Power of DOM');
+    $('.blue').text('Power of DOM');
 }
